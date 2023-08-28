@@ -1,38 +1,44 @@
 [
     {
         "id": 1,
-        "nombre": "esspresso americano",
+        "nombre": "Esspresso",
+        "extra":  "Americano",
         "precio": 2.45,
-        "img": "./assets/img/coffee_1.jpg"
+        "img": "./assets/img/coffee_1.png"
     },
     {
         "id": 2,
-        "nombre": "mocha blanco",
+        "nombre": "Mocha",
+        "extra":  "Blanco",
         "precio": 4.25,
-        "img": "./assets/img/coffee_2.jpg"
+        "img": "./assets/img/coffee_2.png"
     },
     {
         "id": 3,
-        "nombre": "latte macchiato",
+        "nombre": "Latte",
+        "extra": "Macchiato",
         "precio": 5.15,
-        "img": "./assets/img/coffee_3.jpg"
+        "img": "./assets/img/coffee_3.png"
     },
     {
         "id": 4,
-        "nombre": "mocha helado",
+        "nombre": "Mocha",
+        "extra":  "Helado",
         "precio": 6.18,
-        "img": "./assets/img/coffee_4.jpg"
+        "img": "./assets/img/coffee_4.png"
     },
     {
         "id": 5,
-        "nombre": "latte helado",
-        "precio": 3.45,
-        "img": "./assets/img/coffee_5.jpg"
+        "nombre": "Cafe Del dia Helado",
+        "extra": "",
+        "precio": 1.45,
+        "img": "./assets/img/coffee_5.png"
     },
     {
         "id": 6,
-        "nombre": "cafe del dia",
+        "nombre": "Cafe del dia",
+        "extra": "",
         "precio": 1.45,
-        "img": "./assets/img/coffee_1.jpg"
+        "img": "./assets/img/coffee_6.png"
     }
 ]
