@@ -1,9 +1,13 @@
  @import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
 body{
-    background: rgb(20,30,29);
-    background: linear-gradient(121deg, rgba(20,30,29,1) 37%, rgba(68,96,99,1) 79%);
+    background: rgb(104,96,88);
+    background: linear-gradient(36deg, rgba(104,96,88,1) 3%, rgba(15,16,22,1) 73%);
     background-repeat: no-repeat;
-    background-size: auto 1280px;
+    background-size: auto 2280px;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 5em;
+    padding-top: 1em;
 }
 
 a{
@@ -14,13 +18,23 @@ a{
     font-family: 'Raleway', sans-serif;
 }
 
+/* Clases de las cartas o tarjetas de opciones y de los productos */
 .cardButton{
     font-family: 'Raleway', sans-serif;
-    color: #ffffff;
+    color: #0f1016;
     border-radius: 45px;
+    height: auto;
+    width: auto;
     background-color: #f0ab6f;
     backdrop-filter: blur(5%);
 }
+
+
+.cardButton:active {
+    background-color: #f0c198;
+    transform: translateY(4px);
+}
+
 
 .imgSize{
     padding-top: 5%;
@@ -43,8 +57,10 @@ a{
 }
 
 .cardblur{
+    padding-top: 3px;
+    -webkit-backdrop-filter: blur(10px);
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.141); 
-    background-color: rgba(68,96,99, 0.442);
+    background-color: rgba(104,96,88, 0.442);
     backdrop-filter: blur(5%);
     border-radius: 25px;
 }
@@ -59,21 +75,18 @@ a{
     font-family: 'Raleway', sans-serif;
 }
 
-#footer {
-    position: sticky;
-    bottom: 0;
-    width: 100%;
-    height: 5px;            /* altura de pie de página */
-  }
-
 .cardOption{
-    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.141); 
-    background-color: rgba(68,96,99, 0.442);
-    color: #f0ab6f;
-    backdrop-filter: blur(5%);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(104,96,88, 0.442);
+    backdrop-filter: blur(10px);
+    color: #D8BFAE;
     border-radius: 15px;
 }
+/* Fin de las clases de las cartas o tarjetas de productos y opciones */
 
+
+/* clases del navbar */
+/* clase de los iconos para cambiar de color */
 .iconsColor{
     padding-top: 5px;
     color: #f0ab6f;
@@ -87,3 +100,51 @@ a{
     background-color: #f0ab6f;
     color: black;
 }
+
+/* botones y efectos en los iconos del navbar */
+.iconnavbar{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 30px;
+    height: 30px;
+    color: #ffffff;
+}
+
+.iconnavbar:hover {
+    color: #f0ab6f;
+}
+
+.iconnavbar:active {
+    color: #f0c198;
+    transform: translateY(4px);
+  }
+/* botones y efectos en los iconos del navbar */
+
+  /* posicion del navbar */
+.navbarSticky{
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.141); 
+    background-color: rgba(15, 16, 22, 0.994);
+    backdrop-filter: blur(5%);
+    width: 100%;
+    height: 65px;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/* Fin clases del navbar */
+
+/* Clase de notificaciones */
+
+.notificacion{
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);  
+    color: #0f1016;
+}
+
+/* Fin de clases de notificaciones */

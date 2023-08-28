@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "nombre": "esspresso americano",
+        "precio": 2.45,
+        "img": "./assets/img/coffee_1.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "mocha blanco",
+        "precio": 4.25,
+        "img": "./assets/img/coffee_2.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "latte macchiato",
+        "precio": 5.15,
+        "img": "./assets/img/coffee_3.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "mocha helado",
+        "precio": 6.18,
+        "img": "./assets/img/coffee_4.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "latte helado",
+        "precio": 3.45,
+        "img": "./assets/img/coffee_5.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "cafe del dia",
+        "precio": 1.45,
+        "img": "./assets/img/coffee_1.jpg"
+    }
+]
